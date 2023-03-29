@@ -31,6 +31,11 @@
 .navbar-toggler {
     border: 0;
 }
+.dropdown-menu[data-bs-popper] {
+    top: 100%;
+    left: -53px;
+    margin-bottom: 10px;
+}
 .carousel {
     height: 100vh;
 }
@@ -50,6 +55,40 @@
     line-height: 70px;
     margin-bottom: 5%;
 }
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+.hTwo {
+    font-weight: 900;
+    font-size: 4rem;
+    text-align: center;
+}
+.pI {
+    font-size: 1rem;
+    text-align: justify;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (max-width: 510px) {
     .carousel-caption h5 {
         font-size: 3rem;
