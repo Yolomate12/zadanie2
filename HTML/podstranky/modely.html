@@ -15,24 +15,28 @@
       <a class="navbar-brand" href="../main_page.html">
         <img src="https://pngimg.com/uploads/porsche_logo/porsche_logo_PNG9.png" alt="">
       </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
         <svg width="30" height="30" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M13.8 19.1998H2.40002M21.6 11.9998H2.40002M21.6 4.7998H2.40002" stroke="black" stroke-width="2" stroke-linecap="round"/>
         </svg>
       </button>
-      <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">O nás</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Modely</a>
-          </li>
-        </ul>
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="../main_page.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Modely</a>
+            </li>
+          </ul>
+        </div>
       </div>
+  
     </div>
   </nav>
 
@@ -126,61 +130,137 @@
 
   <div style="height: 100px;" id="scroll"></div>
 
-    <div class="container-fluid" id="p911">
-      
-      <div style="height: 100px;" id="scroll"></div>
-      <h3 style="text-align: center;">911</h3>
-      
-      <div class="container">
-        <div class="row" id="cards">
-          <div class="col-xl-3 col-lg-4 col-md-6 col-12">
-            <a href="#">
-              <div class="card" style="width: 100%; margin: 20px 0;">
-                <img src="https://stimg.cardekho.com/images/carexteriorimages/930x620/Porsche/911/7652/1677566789939/front-left-side-47.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h2>Porsche</h2>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="col-xl-3 col-lg-4 col-md-6 col-12">
-            <a href="#">
-              <div class="card" style="width: 100%; margin: 20px 0;">
-                <img src="https://images.drive.com.au/driveau/image/upload/t_wp-default/v1/cms/uploads/qhgh9fedekq7s373ywzh" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h2>Porsche</h2>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="col-xl-3 col-lg-4 col-md-6 col-12">
-            <a href="#">
-              <div class="card" style="width: 100%; margin: 20px 0;">
-                <img src="https://images.drive.com.au/driveau/image/upload/t_wp-default/v1/cms/uploads/qhgh9fedekq7s373ywzh" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h2>Porsche</h2>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="col-xl-3 col-lg-4 col-md-6 col-12">
-            <a href="#">
-              <div class="card" style="width: 100%; margin: 20px 0;">
-                <img src="https://images.drive.com.au/driveau/image/upload/t_wp-default/v1/cms/uploads/qhgh9fedekq7s373ywzh" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h2>Porsche</h2>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                </div>
-              </div>
-            </a>
-          </div>
+  <div class="container-fluid p-0" id="p911">
+    <div class="container-fluid p-0" style="background-color: rgb(15, 15, 15);">
+      <div class="bg911">
+        <h3>911</h3>
+        <div style="display: flex; justify-content: end;">
+          <a href="#" class="butTon">Move</a>
         </div>
       </div>
-      <div style="height: 100px;" id="scroll"></div>
+      <div class="container">
+        <div class="row" id="cards">
+          <div style="height: 50px;" id="scroll"></div>
+          <div class="col-xl-3 col-lg-4 col-md-6 col-12">
+            <a href="#" onmouseover="hoverOn1()" onmouseleave="hoverDown1()">
+              <div class="card" style="width: 100%; margin: 20px 0;">
+                <img id="img1" src="https://assets.autobuzz.my/wp-content/uploads/2021/11/29231458/2021-Porsche-911-GT3-Malaysia-10.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h2 style="color: white;">Porsche</h2>
+                  <p class="card-text" style="color: white;">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-xl-3 col-lg-4 col-md-6 col-12">
+            <a href="#" onmouseover="hoverOn2()" onmouseleave="hoverDown2()">
+              <div class="card" style="width: 100%; margin: 20px 0;">
+                <img id="img2" src="https://sf2.autojournal.fr/wp-content/uploads/autojournal/2021/02/nowe-porsche-911-gt3-otwarcie-1-1024x683.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h2 style="color: white;">Porsche</h2>
+                  <p class="card-text" style="color: white;">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-xl-3 col-lg-4 col-md-6 col-12">
+            <a href="#" onmouseover="hoverOn3()" onmouseleave="hoverDown3()">
+              <div class="card" style="width: 100%; margin: 20px 0;">
+                <img id="img3" src="https://www.topgear.com/sites/default/files/2022/02/Image06.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h2 style="color: white;">Porsche</h2>
+                  <p class="card-text" style="color: white;">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-xl-3 col-lg-4 col-md-6 col-12">
+            <a href="#" onmouseover="hoverOn4()" onmouseleave="hoverDown4()">
+              <div class="card" style="width: 100%; margin: 20px 0;">
+                <img id="img4" src="https://www.topgear.com/sites/default/files/brightcove/videos/images/posters/1546304439_5990283131001_5989649327001-vs.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h2 style="color: white;">Porsche</h2>
+                  <p class="card-text" style="color: white;">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div style="height: 50px;" id="scroll"></div> 
+          <p style="color: rgb(170, 170, 170); text-align: justify; max-height: 100px; text-overflow: ellipsis; overflow: hidden;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto alias quam est doloribus quia facere recusandae vero, consequuntur atque quibusdam placeat quos cupiditate ea nemo suscipit vitae qui nisi. Non. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem et architecto magnam quasi ullam odit velit possimus ipsam nulla voluptates. Doloremque iusto architecto ut saepe expedita dolore, ratione enim nemo?</p>
+        </div>
+      </div>
+      <div style="height: 50px;" id="scroll"></div>
     </div>
+  </div>
+
+
+
+
+  <div class="container-fluid p-0" id="p911">
+    <div class="container-fluid p-0">
+      <div class="bg911" style="background-image: url('https://cdn.motor1.com/images/mgl/QEmQB/s1/2020-porsche-taycan.jpg');">
+        <h3 style="color: black;">Taycan</h3>
+        <div style="display: flex; justify-content: end;">
+          <a href="#" class="butTon">Move</a>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row" id="cards">
+          <div style="height: 50px;" id="scroll"></div>
+          <div class="col-xl-3 col-lg-4 col-md-6 col-12">
+            <a href="#" onmouseover="hoverOn1()" onmouseleave="hoverDown1()">
+              <div class="card" style="width: 100%; margin: 20px 0; background-color: white;">
+                <img id="img1" src="https://assets.autobuzz.my/wp-content/uploads/2021/11/29231458/2021-Porsche-911-GT3-Malaysia-10.jpg" class="card-img-top" alt="...">
+                <div class="card-body" style="border: none;">
+                  <h2>Porsche</h2>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-xl-3 col-lg-4 col-md-6 col-12">
+            <a href="#" onmouseover="hoverOn2()" onmouseleave="hoverDown2()">
+              <div class="card" style="width: 100%; margin: 20px 0; background-color: white;">
+                <img id="img2" src="https://sf2.autojournal.fr/wp-content/uploads/autojournal/2021/02/nowe-porsche-911-gt3-otwarcie-1-1024x683.jpg" class="card-img-top" alt="...">
+                <div class="card-body" style="border: none;">
+                  <h2>Porsche</h2>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-xl-3 col-lg-4 col-md-6 col-12">
+            <a href="#" onmouseover="hoverOn3()" onmouseleave="hoverDown3()">
+              <div class="card" style="width: 100%; margin: 20px 0; background-color: white;">
+                <img id="img3" src="https://www.topgear.com/sites/default/files/2022/02/Image06.jpg" class="card-img-top" alt="...">
+                <div class="card-body" style="border: none;">
+                  <h2>Porsche</h2>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-xl-3 col-lg-4 col-md-6 col-12">
+            <a href="#" onmouseover="hoverOn4()" onmouseleave="hoverDown4()">
+              <div class="card" style="width: 100%; margin: 20px 0; background-color: white;">
+                <img id="img4" src="https://www.topgear.com/sites/default/files/brightcove/videos/images/posters/1546304439_5990283131001_5989649327001-vs.jpg" class="card-img-top" alt="...">
+                <div class="card-body" style="border: none;">
+                  <h2>Porsche</h2>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div style="height: 50px;" id="scroll"></div> 
+          <p style="color: rgb(170, 170, 170); text-align: justify; max-height: 100px; text-overflow: ellipsis; overflow: hidden;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto alias quam est doloribus quia facere recusandae vero, consequuntur atque quibusdam placeat quos cupiditate ea nemo suscipit vitae qui nisi. Non. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem et architecto magnam quasi ullam odit velit possimus ipsam nulla voluptates. Doloremque iusto architecto ut saepe expedita dolore, ratione enim nemo?</p>
+        </div>
+      </div>
+      <div style="height: 50px;" id="scroll"></div>
+    </div>
+  </div>
+
+
+
 
   <div style="height: 200px;" id="scroll"></div>
     
@@ -198,5 +278,6 @@
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+    <script src="../../JS/index.js"></script>
 </body>
 </html>

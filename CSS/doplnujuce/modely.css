@@ -18,12 +18,20 @@
     font-weight: 600;
     font-size: 2.5rem;
 }
-#p911 {
-    box-shadow: 0px -25px 33px 16px rgba(0,0,0,1) inherit;
-    padding: 0;
-}
-.card {
+
+#p911 .card {
     box-shadow: 0px 0px 19px 3px rgba(0,0,0,0.1);
+    background-color: rgb(15, 15, 15);
+    transition: background-color 0.3s;
+}
+#p911 .card:hover {
+    background-color: rgb(31, 31, 31);
+    transition: background-color 0.5s;
+}
+#p911 .card-body {
+    border-radius: 0px 0px 10px 10px;
+    border: 2px solid rgb(104, 104, 104);
+    border-top: 0;
 }
 #cards > div {
     transform: scale(100%);
@@ -34,9 +42,44 @@
     transition: transform 0.3s;
 }
 
+.bg911 {
+    height: 80vh;
+    width: 100%;
+    background-image: url("https://phantom-marca.unidadeditorial.es/1704fad748196fbe13cf35464c5c6b48/crop/141x426/1718x1314/f/jpg/assets/multimedia/imagenes/2020/03/03/15832338203540.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.bg911 h3 {
+    color: white;
+    font-size: 6rem;
+    margin: 40px 0 0 40px;
+}
+
+.butTon {
+    margin: 0 40px 40px 0;
+    color: white;
+    font-size: 2rem;
+    border: 2px solid white;
+    padding: 20px 30px;
+    background-color: transparent;
+    transition: background-color 0.2s;
+}
+.butTon:hover {
+    background-color: white;
+    color: black;
+    transition: background-color 0.3s;
+}
 
 @media screen and (max-width: 510px) {
     .textTop {
         display: none;
+    }
+    .butTon {
+        background-color: white;
+        color: black;
     }
 }

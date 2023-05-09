@@ -35,10 +35,13 @@ a {
     border: 0;
 }
 
-.dropdown-menu[data-bs-popper] {
-    top: 100%;
-    left: -53px;
-    margin-bottom: 10px;
+.navbar-nav {
+    height: 82px;
+    align-items: center;
+}
+.offcanvas-title {
+    font-weight: 800;
+    font-size: 2rem;
 }
 .carousel {
     height: 100vh;
@@ -181,6 +184,9 @@ a {
     }
     .navbar-brand img {
         height: 1em;
+    }
+    .offcanvas {
+        width: 100%;
     }
 }
 

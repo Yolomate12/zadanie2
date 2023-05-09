@@ -14,23 +14,26 @@
       <a class="navbar-brand" href="#">
         <img src="https://pngimg.com/uploads/porsche_logo/porsche_logo_PNG9.png" alt="">
       </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
         <svg width="30" height="30" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M13.8 19.1998H2.40002M21.6 11.9998H2.40002M21.6 4.7998H2.40002" stroke="black" stroke-width="2" stroke-linecap="round"/>
         </svg>
       </button>
-      <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">O nás</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="podstranky/modely.html">Modely</a>
-          </li>
-        </ul>
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="podstranky/modely.html">Modely</a>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
   </nav>
@@ -157,10 +160,10 @@
     <img src="https://wallpapercrafter.com/desktop/91218-porsche-917k-porsche-racing-cars-cars-hd-behance.jpg" style="height: 100vh; width: 100%; object-fit: cover; object-position: center; position: absolute; z-index: -2; filter: brightness(50%); padding: 0;" alt="BG">
     <div class="col-lg-6 col-sm-10 p-0">
       <div class="lgScreen">
-        <h2>Car Gallery</h2>
+        <h2>Modely</h2>
         <p style="color: white;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam voluptas laboriosam blanditiis aliquid harum vero esse dolore praesentium, consequatur, ducimus voluptates doloremque cumque, labore ipsum sed veniam obcaecati libero consectetur?</p>
         <div class="container-fluid p-0 mt-5">
-          <a href="#" class="pBGbutton">
+          <a href="podstranky/modely.html" class="pBGbutton">
             <button style="background-color: transparent; border: 0; padding: 0;">See more
             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M12.8333 7.625L17 12M17 12L12.8333 16.375M17 12L7 12" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
