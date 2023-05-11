@@ -1,0 +1,29 @@
+.wellBgImg, .wellCarImg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%; 
+    object-fit: cover; 
+    object-position: center;
+    filter: brightness(80%);
+    transform: scaleX(-1);
+}
+.wellBgImg {
+    position: fixed;
+    z-index: -20;
+}
+.wellCarImg {
+    box-shadow: 0px -5px 32px 32px rgba(0,0,0,0.56);
+    z-index: -10;
+}
+.nadpis {
+    position: fixed;
+    z-index: -15;
+    font-size: 13vw;
+    font-weight: 800;
+    color: rgba(255, 255, 255, 0.479);
+    top: 50vh;
+    left: 50vw;
+    transform: translate(-50%, -50%);
+}
