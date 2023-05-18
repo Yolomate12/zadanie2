@@ -10,7 +10,6 @@
     transform: scaleX(-1);
 }
 .wellBgImg {
-    position: fixed;
     z-index: -20;
 }
 .wellCarImg {
@@ -26,4 +25,45 @@
     top: 50vh;
     left: 50vw;
     transform: translate(-50%, -50%);
+    animation-name: wellcome;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0;
+    animation-iteration-count: 1;
+}
+.hTwo {
+    color: white;
+}
+.pI {
+    color: white;
+}
+.country {
+    aspect-ratio: 1/1;
+    width: 12.5%;
+    padding: 12px;
+    box-sizing: border-box;
+    margin: 10px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 100%;
+}
+
+
+
+
+
+@keyframes wellcome {
+    0% {top: 100vh; opacity: 0;}
+    50% {opacity: 0;}
+    100% {top: 50vh; opacity: 100%;}
+}
+
+
+@media screen and (max-width: 510px) {
+    
+    .hTwo {
+        font-size: 10vw;
+        margin: 20px 0;
+    }
 }

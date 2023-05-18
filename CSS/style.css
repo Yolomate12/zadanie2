@@ -36,7 +36,6 @@ a {
 }
 
 .navbar-nav {
-    height: 82px;
     align-items: center;
 }
 .offcanvas-title {
@@ -53,7 +52,7 @@ a {
     filter: brightness(70%);
 }
 .carousel-caption {
-    top: 35%;
+    top: 40%;
 }
 .carousel-caption h5 {
     font-size: 5rem;
