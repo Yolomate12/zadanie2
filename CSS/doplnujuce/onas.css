@@ -23,7 +23,7 @@
     font-weight: 800;
     color: rgba(255, 255, 255, 0.479);
     top: 50vh;
-    left: 50vw;
+    left: 50%;
     transform: translate(-50%, -50%);
     animation-name: wellcome;
     animation-duration: 1s;
@@ -49,8 +49,46 @@
     border-radius: 100%;
 }
 
-
-
+.formularBG {
+    height: 100vh;
+    position: relative;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('https://rare-gallery.com/uploads/posts/583887-space-earth.jpg');
+    background-size: cover;
+    background-position: 50% 40%;
+    background-repeat: no-repeat;
+}
+.formular {
+    margin: 15vh 0;
+}
+.formular input {
+    width: 100%;
+    height: 50px;
+    background-color: transparent;
+    padding: 10px;
+    border: 0;
+    border-bottom: 2px solid rgb(79, 79, 79);
+    transition: border-bottom 0.2s;
+    transition: background-color 0.2s;
+}
+.formular input:focus {
+    outline: 0;
+    border-bottom: 3px solid black;
+    background-color: rgb(255, 255, 255, 0.1); 
+    transition: border-bottom 0.2s;
+    transition: background-color 0.2s;
+}
+.inputRows .row {
+    margin-top: 20px;
+}
+.inputRows .hTwo {
+    font-size: 3vw;
+    margin: 20px 0 30px 0;
+    color: black;
+}
 
 
 @keyframes wellcome {
@@ -65,5 +103,8 @@
     .hTwo {
         font-size: 10vw;
         margin: 20px 0;
+    }
+    .nadpis {
+        font-size: 15vw;
     }
 }
