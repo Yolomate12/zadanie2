@@ -42,9 +42,6 @@ a {
     font-weight: 800;
     font-size: 2rem;
 }
-.navbar-item {
-
-}
 .carousel {
     height: 100vh;
 }
@@ -121,17 +118,6 @@ a {
     padding: 2% 1.5%;
 }
 
-.subtitle::after {
-    content: "";
-    margin: auto;
-    width: 30px;
-    height: 3px;
-    position: absolute;
-    opacity: .2;
-    background: #FFF;
-    left: 0;
-    right: 0;
-}
 #pribehW {
     display: flex;
     flex-wrap: nowrap;

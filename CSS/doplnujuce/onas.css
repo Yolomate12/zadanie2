@@ -63,6 +63,8 @@
 }
 .formular {
     margin: 15vh 0;
+    padding: 0 10px !important;
+    
 }
 .formular input {
     width: 100%;
@@ -70,26 +72,62 @@
     background-color: transparent;
     padding: 10px;
     border: 0;
-    border-bottom: 2px solid rgb(79, 79, 79);
-    transition: border-bottom 0.2s;
+    border-bottom: 2px solid rgb(138, 138, 138);
     transition: background-color 0.2s;
 }
 .formular input:focus {
     outline: 0;
-    border-bottom: 3px solid black;
-    background-color: rgb(255, 255, 255, 0.1); 
-    transition: border-bottom 0.2s;
+    border-bottom: 3px solid rgb(5, 5, 5);
+    background-color: rgba(245, 245, 245, 0.527); 
     transition: background-color 0.2s;
+}
+.inputRows {
+    box-sizing: content-box;
+    padding: 0 5%;
+    overflow: hidden;
+    position: relative;
 }
 .inputRows .row {
     margin-top: 20px;
 }
 .inputRows .hTwo {
-    font-size: 3vw;
-    margin: 20px 0 30px 0;
-    color: black;
+    font-size: 3rem;
+    margin: 40px 0 30px 0;
+    color: rgb(36, 36, 36);
 }
 
+
+.podmienky {
+    display: flex;
+    align-items: center;
+}
+.podmienky input {
+    height: max-content;
+    width: max-content;
+    margin-right: 40px;
+    border: 0;
+}
+.podmienky label {
+    font-size: 0.8rem;
+}
+
+.submitBut {
+    background-color: rgb(5,5,5) !important; 
+    color: white; 
+    width: 40% !important;
+    text-align: center;
+    border: 2px solid rgb(5, 5, 5) !important; 
+    font-weight: bold;
+    margin-top: 40px;
+}
+.submitBut:hover {
+    background-color: transparent !important;
+    color: black;
+    transition: background-color 0.3s, color 0.3s;
+}
+.submitBut:active {
+    background-color: rgb(196, 196, 196) !important;
+}
 
 @keyframes wellcome {
     0% {top: 100vh; opacity: 0;}

@@ -8,6 +8,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
     <link rel="stylesheet" href="../../CSS/style.css">
     <link rel="stylesheet" href="../../CSS/doplnujuce/modely.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="icon" type="png" href="../Source/580b57fcd9996e24bc43c325.png">
 <body>
   <nav class="navbar navbar-expand-lg">
@@ -77,11 +78,11 @@
 
 
   <div class="container">
-    <h3>Najnovsie</h3>
+    <h3 data-aos="fade-down">Najnovsie</h3>
     <div class="row" id="cards">
       <div class="col-xl-3 col-lg-4 col-md-6 col-12">
         <a href="#">
-          <div class="card" style="width: 100%; margin: 20px 0;">
+          <div class="card" style="width: 100%; margin: 20px 0;" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1200">
             <img src="https://stimg.cardekho.com/images/carexteriorimages/930x620/Porsche/911/7652/1677566789939/front-left-side-47.jpg" class="card-img-top" alt="...">
             <div class="card-body">
               <h2>Porsche</h2>
@@ -92,7 +93,7 @@
       </div>
       <div class="col-xl-3 col-lg-4 col-md-6 col-12">
         <a href="#">
-          <div class="card" style="width: 100%; margin: 20px 0;">
+          <div class="card" style="width: 100%; margin: 20px 0;"  data-aos="fade-up" data-aos-delay="400" data-aos-duration="1200">
             <img src="https://ipravda.sk/res/2019/09/05/thumbs/porsche-taycan-2019_18-nestandard1.jpg" class="card-img-top" alt="...">
             <div class="card-body">
               <h2>Porsche</h2>
@@ -103,7 +104,7 @@
       </div>
       <div class="col-xl-3 col-lg-4 col-md-6 col-12">
         <a href="#">
-          <div class="card" style="width: 100%; margin: 20px 0;">
+          <div class="card" style="width: 100%; margin: 20px 0;"  data-aos="fade-up" data-aos-delay="600" data-aos-duration="1100">
             <img src="https://stimg.cardekho.com/images/carexteriorimages/630x420/Porsche/Macan/8687/1677661032684/front-left-side-47.jpg?tr=w-300" class="card-img-top" alt="...">
             <div class="card-body">
               <h2>Porsche</h2>
@@ -114,7 +115,7 @@
       </div>
       <div class="col-xl-3 col-lg-4 col-md-6 col-12">
         <a href="#">
-          <div class="card" style="width: 100%; margin: 20px 0;">
+          <div class="card" style="width: 100%; margin: 20px 0;"  data-aos="fade-up" data-aos-delay="800" data-aos-duration="1000">
             <img src="https://media04.marktspiegel.de/article/2022/03/23/2/306532_L.jpg?1648038484" class="card-img-top" alt="...">
             <div class="card-body">
               <h2>Porsche</h2>
@@ -136,9 +137,9 @@
   <div class="container-fluid p-0" id="p911">
     <div class="container-fluid p-0" style="background-color: rgb(15, 15, 15);">
       <div class="bg911">
-        <h3>911</h3>
+        <h3 data-aos="fade-right">911</h3>
         <div style="display: flex; justify-content: end;">
-          <a href="#" class="butTon">Move</a>
+          <a href="#" class="butTon" data-aos="fade-left">Move</a>
         </div>
       </div>
       <div class="container">
@@ -202,13 +203,13 @@
   <div class="container-fluid p-0" id="p911">
     <div class="container-fluid p-0">
       <div class="bg911" style="background-image: url('https://cdn.motor1.com/images/mgl/QEmQB/s1/2020-porsche-taycan.jpg');">
-        <h3 style="color: black;">Taycan</h3>
+        <h3 style="color: black;" data-aos="fade-right">Taycan</h3>
         <div style="display: flex; justify-content: end;">
-          <a href="#" class="butTon">Move</a>
+          <a href="#" class="butTon" data-aos="fade-left">Move</a>
         </div>
       </div>
       <div class="container">
-        <div class="row" id="cards">
+        <div class="row" id="cards" data-aos="fade-up" data-aos-duration="1500">
           <div style="height: 50px;" id="scroll"></div>
           <div class="col-xl-3 col-lg-4 col-md-6 col-12">
             <a href="#" onmouseover="hoverOn1()" onmouseleave="hoverDown1()">
@@ -282,5 +283,9 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
     <script src="../../JS/index.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 </html>
