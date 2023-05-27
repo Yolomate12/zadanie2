@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    font-family: Roboto, Helvetica, sans-serif;
+}
+
+h1 {
+    font-size: 8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0;
+    line-height: 1 !important;
+    letter-spacing: -1.5px;
+    margin-left: -8px;
+}
+h2 {
+    font-size: 5rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin: 0;
+    line-height: 1 !important;
+    letter-spacing: -1.5px;
+    margin-left: -2px;
+}
+h3 {
+    font-size: 2.5rem;
+    margin: 0;
+    line-height: 1 !important;
+    letter-spacing: -1.5px;
+    margin-left: -2px;
+}
+p {
+    margin: 0;
+}
+a {
+    color: var(--bs-navbar-active-color);
+    text-decoration: none;
+}
+
+
+
+
+.navbar {
+    position: fixed;
+    z-index: 10;
+    background-color: white;
+    width: 100%;
+}
+.navbar-brand img {
+    height: 60px;
+}
+.navbar-toggler {
+    border: 0;
+}
+
+
+
+.headPageImage {
+    background-image: url('https://bluesky.cdn.imgeng.in/cogstock-images/65acd2eb-cace-41f4-af8d-a7076eef17da.jpg?migeng=/w_1200/');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: calc(100vh - 86px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    user-select: none;
+    position: relative;
+}
+.headPageImage h1 {
+    margin-top: 15px;
+}
+
+
+
+.modelLink {
+    display: flex;
+}
+.columSide {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    width: 70%;
+}
+#models {
+    width: 30%;
+}
+
+
+
+
+@media screen and (max-width: 1400px) {
+    .modelLink {
+        display: block;
+    }
+    .columSide {
+        width: 100%;
+    }
+    #models {
+        margin: 50px 0;
+        padding: 0 20px;
+        width: 100%;
+    }
+}
+@media screen and (max-width: 790px) {
+    .headPageImage h1 {
+        font-size: 5rem;
+    }
+}
+@media screen and (max-width: 540px) {
+    .headPageImage h1 {
+        font-size: 4rem;
+    }
+    .headPageImage h3 {
+        font-size: 2rem;
+    }
+}
