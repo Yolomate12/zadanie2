@@ -37,11 +37,12 @@ a {
     text-decoration: none;
 }
 .button {
-    padding: 20px 30px;
+    padding: 15px 60px;
     border: 1px solid rgb(138, 138, 138);
     background-color: transparent;
     font-weight: 600;
     color: rgb(78, 78, 78);
+    transition: background-color 0.2s, color 0.2s;
 }
 .button:hover {
     background-color: black;
@@ -79,6 +80,7 @@ a {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    background-color: black;
     height: calc(100vh - 86px);
     display: flex;
     flex-direction: column;
@@ -110,6 +112,7 @@ a {
 
 .race {
     display: flex;
+    
 }
 
 
@@ -120,6 +123,7 @@ a {
 #race2 {
     order: 2;
     width: 30%;
+    padding: 0 20px;
 }
 .news div h1 {
     font-size: 7rem;
@@ -127,11 +131,23 @@ a {
 .newsList {
     display: flex;
 }
+.newsList p {
+    text-align: justify;
+}
 .newsList  > div {
     width: 70%;
 }
 #butNews {
     width: 30%;
+}
+
+footer {
+    background-color: rgb(26, 26, 26);
+    color: white;
+}
+footer p {
+    margin: 40px 0;
+    font-weight: 300;
 }
 
 
@@ -195,6 +211,13 @@ a {
     #butNews {
         width: 100%;
         margin-top: 20px;
+        justify-content: center;
+    }
+    #newsCon p, #newsCon .button{
+        display: none;
+    }
+    #newsCon h3 {
+        margin-top: 15px;
     }
 }
 @media screen and (max-width: 540px) {
