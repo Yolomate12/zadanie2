@@ -36,6 +36,19 @@ a {
     color: var(--bs-navbar-active-color);
     text-decoration: none;
 }
+.button {
+    padding: 20px 30px;
+    border: 1px solid rgb(138, 138, 138);
+    background-color: transparent;
+    font-weight: 600;
+    color: rgb(78, 78, 78);
+}
+.button:hover {
+    background-color: black;
+    border-color: black;
+    color: white;
+    transition: background-color 0.3s, color 0.3s;
+}
 
 
 
@@ -52,6 +65,12 @@ a {
 .navbar-toggler {
     border: 0;
 }
+
+  .navbar-toggler:focus {
+    box-shadow: 0;
+    outline: 0 !important;
+    text-decoration: none;
+  }
 
 
 
@@ -89,13 +108,52 @@ a {
     width: 30%;
 }
 
+.race {
+    display: flex;
+}
 
+
+#imgr {
+    order: 1;
+    width: 70%;
+}
+#race2 {
+    order: 2;
+    width: 30%;
+}
+.news div h1 {
+    font-size: 7rem;
+}
+.newsList {
+    display: flex;
+}
+.newsList  > div {
+    width: 70%;
+}
+#butNews {
+    width: 30%;
+}
 
 
 @media screen and (max-width: 1400px) {
     .modelLink {
         display: block;
     }
+    .race {
+        display: flex;
+        flex-direction: column;
+    }
+    #imgr {
+        order: 1;
+        width: 100%;
+    }
+    #race2 {
+        order: -1;
+        width: 100%;
+        margin: 50px 0;
+    }
+    
+    
     .columSide {
         width: 100%;
     }
@@ -108,6 +166,35 @@ a {
 @media screen and (max-width: 790px) {
     .headPageImage h1 {
         font-size: 5rem;
+    }
+    #models svg {
+        display: none;
+    }
+    #models h2, .race h2 {
+        font-size: 3.5rem;
+    }
+    .news {
+        width: 100%;
+        padding: 0;
+    }
+    .news div h1 {
+        font-size: 3rem;
+    }
+    .news div h3 {
+        font-size: 2rem;
+    }
+    .news > div {
+        padding: 0 20px;
+    }
+    .newsList {
+        display: block;
+    }
+    .newsList > div {
+        width: 100%;
+    }
+    #butNews {
+        width: 100%;
+        margin-top: 20px;
     }
 }
 @media screen and (max-width: 540px) {
