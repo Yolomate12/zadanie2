@@ -1,0 +1,37 @@
+.headPageImage {
+    background-image: none;
+    
+}
+
+#imgr {
+    order: 1;
+    width: 60%;
+    background-color: rgb(19, 19, 19);
+    padding: 20px 0;
+}
+#imgr img {
+    box-shadow: inset 0 0 5em 1em rgb(19, 19, 19);
+}
+#race2 {
+    order: 2;
+    width: 40%;
+    padding: 0 20px;
+}
+
+
+@media screen and (max-width: 1440px) {
+    #imgr {
+        order: 1;
+        width: 100%;
+    }
+    #race2 {
+        order: -1;
+        width: 100%;
+        margin: 50px 0;
+    }
+}
+@media screen and (max-width: 790px) {
+    #imgr {
+        height: 500px;
+    }
+}

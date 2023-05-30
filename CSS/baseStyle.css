@@ -50,6 +50,20 @@ a {
     color: white;
     transition: background-color 0.3s, color 0.3s;
 }
+.button1 {
+    padding: 15px 60px;
+    border: 1px solid rgb(138, 138, 138);
+    background-color: transparent;
+    font-weight: 600;
+    color: rgb(167, 167, 167);
+    transition: background-color 0.2s, color 0.2s;
+}
+.button1:hover {
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(255, 255, 255);
+    color: rgb(19, 19, 19);
+    transition: background-color 0.3s, color 0.3s;
+}
 
 
 
@@ -149,6 +163,9 @@ footer p {
     margin: 40px 0;
     font-weight: 300;
 }
+#readall {
+    display: none;
+}
 
 
 @media screen and (max-width: 1400px) {
@@ -218,6 +235,9 @@ footer p {
     }
     #newsCon h3 {
         margin-top: 15px;
+    }
+    #readall {
+        display: block;
     }
 }
 @media screen and (max-width: 540px) {
