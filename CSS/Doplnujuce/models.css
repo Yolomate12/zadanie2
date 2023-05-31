@@ -7,7 +7,7 @@
     order: 1;
     width: 60%;
     background-color: rgb(19, 19, 19);
-    padding: 20px 0;
+    padding: 20px 0 0 0;
 }
 #imgr img {
     box-shadow: inset 0 0 5em 1em rgb(19, 19, 19);
@@ -16,6 +16,18 @@
     order: 2;
     width: 40%;
     padding: 0 20px;
+}
+
+
+.carbg {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.carbg div {
+    color: white;
+    
 }
 
 
@@ -33,5 +45,8 @@
 @media screen and (max-width: 790px) {
     #imgr {
         height: 500px;
+    }
+    .race a, #race2 a {
+        text-align:  center !important; 
     }
 }
