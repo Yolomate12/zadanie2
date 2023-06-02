@@ -8,8 +8,470 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="../../CSS/baseStyle.css">
+    <link rel="stylesheet" href="../../CSS/Doplnujuce/forms.css">
 </head>
 <body>
+
+  <header>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid jusify-content-between">
+          <a class="navbar-brand" href="../headPage.html">
+            <img src="https://seeklogo.com/images/P/porsche-logo-E1129E0F57-seeklogo.com.png" alt="">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <svg width="30" height="30" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M13.8 19.1998H2.40002M21.6 11.9998H2.40002M21.6 4.7998H2.40002" stroke="black" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+          </button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <h3 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h3>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="../headPage.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="models.html">Modely</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="about.html">O nas</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Forms</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+  </header>
+
+
+
+  <div style="height: 86px;"></div>
+
+<!-- 718 -->
+  <div class="container-fluid car1 p-0" id="p718">
+    <div class="container">
+      <h2 style="margin: 40px 0; text-align: center;">Poziadat o vozidlo</h2>
+      <div class="carsh row">
+        <div class="col-md-6 col-sm-12">
+          <img src="https://files.porsche.com/filestore/image/multimedia/none/982-718-c7s-modelimage-sideshot/model/af021b27-d5ba-11ec-80ef-005056bbdc38/porsche-model.png" alt="718" style="width: 100%;">
+        </div>
+        <div class="col-md-6 col-sm-12">
+          <h3 >Porsche 718</h3>
+          <p style="text-align: justify;">Lorem ipsum dolor, sit amet consectetur adipisicing elit</p>
+          <h3>78 000,00</h3>
+        </div>
+      </div>
+      <form action="">
+        <div class="row">
+          <div class="col-md-6 col-sm-12">
+            <input type="text" id="meno" name="formular" placeholder="Meno">
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <input type="text" id="priezvisko" name="formular" placeholder="Priezvisko">
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <input type="email" id="email" name="formular" placeholder="Email">
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <input type="tel" id="tel" name="formular" placeholder="Telefon">
+          </div>
+          <div class="col-12">
+            <input type="text" id="poznamka" name="formular" placeholder="Poznamka">
+          </div>
+          <p style="font-weight: bold; margin: 50px 0; font-size: 1.2rem;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam iusto tempora molestias excepturi perspiciatis rerum placeat, illo adipisci. Quia sunt quos voluptates minus sit maxime nisi impedit harum ipsa esse!</p>
+          <div class="osudaje">
+            <input type="checkbox" name="os" id="osudaje">
+            <p> vel reiciendis, <a href="" style="font-weight: bold; text-decoration: underline;">sequi non cum optio ea, delectus</a>  quis deserunt </p>
+          </div>
+          <div class="osudaje">
+            <input type="checkbox" name="os" id="osudaje">
+            <p>Loat vero vel reiciendis, <a href="" style="font-weight: bold; text-decoration: underline;">sequi non cum optio ea, delectus</a>  quis deserunt ma</p>
+          </div>
+          <div class="container-fluid p-0">
+            <input type="submit" value="Odoslat" class="button">
+          </div>
+        </div>
+      </form>
+      <div style="height: 200px;"></div>
+    </div>
+  </div>
+
+  <!--Taycan-->
+
+
+  <div class="container-fluid car1 p-0" id="taycan">
+    <div class="container">
+      <h2 style="margin: 40px 0; text-align: center;">Poziadat o vozidlo</h2>
+      <div class="carsh row">
+        <div class="col-md-6 col-sm-12">
+          <img src="https://files.porsche.com/filestore/image/multimedia/none/j1-taycan-modelimage-sideshot/model/e36a18ca-fffb-11eb-80dd-005056bbdc38/porsche-model.png" alt="taycan" style="width: 100%;">
+        </div>
+        <div class="col-md-6 col-sm-12">
+          <h3 >Porsche Taycan</h3>
+          <p style="text-align: justify;">Lorem ipsum dolor, sit amet consectetur adipisicing elit</p>
+          <h3>88 000,00</h3>
+        </div>
+      </div>
+      <form action="">
+        <div class="row">
+          <div class="col-md-6 col-sm-12">
+            <input type="text" id="meno" name="formular" placeholder="Meno">
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <input type="text" id="priezvisko" name="formular" placeholder="Priezvisko">
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <input type="email" id="email" name="formular" placeholder="Email">
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <input type="tel" id="tel" name="formular" placeholder="Telefon">
+          </div>
+          <div class="col-12">
+            <input type="text" id="poznamka" name="formular" placeholder="Poznamka">
+          </div>
+          <p style="font-weight: bold; margin: 50px 0; font-size: 1.2rem;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam iusto tempora molestias excepturi perspiciatis rerum placeat, illo adipisci. Quia sunt quos voluptates minus sit maxime nisi impedit harum ipsa esse!</p>
+          <div class="osudaje">
+            <input type="checkbox" name="os" id="osudaje">
+            <p> vel reiciendis, <a href="" style="font-weight: bold; text-decoration: underline;">sequi non cum optio ea, delectus</a>  quis deserunt </p>
+          </div>
+          <div class="osudaje">
+            <input type="checkbox" name="os" id="osudaje">
+            <p>Loat vero vel reiciendis, <a href="" style="font-weight: bold; text-decoration: underline;">sequi non cum optio ea, delectus</a>  quis deserunt ma</p>
+          </div>
+          <div class="container-fluid p-0">
+            <input type="submit" value="Odoslat" class="button">
+          </div>
+        </div>
+      </form>
+      <div style="height: 200px;"></div>
+    </div>
+  </div>
+
+
+<!-- Cayanne -->
+
+  <div class="container-fluid car1 p-0" id="cayanne">
+    <div class="container">
+      <h2 style="margin: 40px 0; text-align: center;">Poziadat o vozidlo</h2>
+      <div class="carsh row">
+        <div class="col-md-6 col-sm-12">
+          <img src="https://files.porsche.com/filestore/image/multimedia/none/e3-2nd-cayenne-s-modelimage-sideshot/model/06955e42-e03e-11ed-8101-005056bbdc38/porsche-model.png" alt="Cayanne" style="width: 100%;">
+        </div>
+        <div class="col-md-6 col-sm-12">
+          <h3 >Porsche Cayanne</h3>
+          <p style="text-align: justify;">Lorem ipsum dolor, sit amet consectetur adipisicing elit</p>
+          <h3>55 000,00</h3>
+        </div>
+      </div>
+      <form action="">
+        <div class="row">
+          <div class="col-md-6 col-sm-12">
+            <input type="text" id="meno" name="formular" placeholder="Meno">
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <input type="text" id="priezvisko" name="formular" placeholder="Priezvisko">
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <input type="email" id="email" name="formular" placeholder="Email">
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <input type="tel" id="tel" name="formular" placeholder="Telefon">
+          </div>
+          <div class="col-12">
+            <input type="text" id="poznamka" name="formular" placeholder="Poznamka">
+          </div>
+          <p style="font-weight: bold; margin: 50px 0; font-size: 1.2rem;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam iusto tempora molestias excepturi perspiciatis rerum placeat, illo adipisci. Quia sunt quos voluptates minus sit maxime nisi impedit harum ipsa esse!</p>
+          <div class="osudaje">
+            <input type="checkbox" name="os" id="osudaje">
+            <p> vel reiciendis, <a href="" style="font-weight: bold; text-decoration: underline;">sequi non cum optio ea, delectus</a>  quis deserunt </p>
+          </div>
+          <div class="osudaje">
+            <input type="checkbox" name="os" id="osudaje">
+            <p>Loat vero vel reiciendis, <a href="" style="font-weight: bold; text-decoration: underline;">sequi non cum optio ea, delectus</a>  quis deserunt ma</p>
+          </div>
+          <div class="container-fluid p-0">
+            <input type="submit" value="Odoslat" class="button">
+          </div>
+        </div>
+      </form>
+      <div style="height: 200px;"></div>
+    </div>
+  </div>
+
+
+<!-- GT3 -->
+
+  <div class="container-fluid car1 p-0" id="pgt3">
+    <div class="container">
+      <h2 style="margin: 40px 0; text-align: center;">Poziadat o vozidlo</h2>
+      <div class="carsh row">
+        <div class="col-md-6 col-sm-12">
+          <img src="https://files.porsche.com/filestore/image/multimedia/none/992-gt3-modelimage-sideshot/model/765dfc51-51bc-11eb-80d1-005056bbdc38/porsche-model.png" alt="GT3" style="width: 100%;">
+        </div>
+        <div class="col-md-6 col-sm-12">
+          <h3 >Porsche 911 GT3</h3>
+          <p style="text-align: justify;">Lorem ipsum dolor, sit amet consectetur adipisicing elit</p>
+          <h3>118 000,00</h3>
+        </div>
+      </div>
+      <form action="">
+        <div class="row">
+          <div class="col-md-6 col-sm-12">
+            <input type="text" id="meno" name="formular" placeholder="Meno">
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <input type="text" id="priezvisko" name="formular" placeholder="Priezvisko">
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <input type="email" id="email" name="formular" placeholder="Email">
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <input type="tel" id="tel" name="formular" placeholder="Telefon">
+          </div>
+          <div class="col-12">
+            <input type="text" id="poznamka" name="formular" placeholder="Poznamka">
+          </div>
+          <p style="font-weight: bold; margin: 50px 0; font-size: 1.2rem;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam iusto tempora molestias excepturi perspiciatis rerum placeat, illo adipisci. Quia sunt quos voluptates minus sit maxime nisi impedit harum ipsa esse!</p>
+          <div class="osudaje">
+            <input type="checkbox" name="os" id="osudaje">
+            <p> vel reiciendis, <a href="" style="font-weight: bold; text-decoration: underline;">sequi non cum optio ea, delectus</a>  quis deserunt </p>
+          </div>
+          <div class="osudaje">
+            <input type="checkbox" name="os" id="osudaje">
+            <p>Loat vero vel reiciendis, <a href="" style="font-weight: bold; text-decoration: underline;">sequi non cum optio ea, delectus</a>  quis deserunt ma</p>
+          </div>
+          <div class="container-fluid p-0">
+            <input type="submit" value="Odoslat" class="button">
+          </div>
+        </div>
+      </form>
+      <div style="height: 200px;"></div>
+    </div>
+  </div>
+
+<!-- 718 GT4 -->
+
+
+  <div class="container-fluid car1 p-0" id="pgt4">
+    <div class="container">
+      <h2 style="margin: 40px 0; text-align: center;">Poziadat o vozidlo</h2>
+      <div class="carsh row">
+        <div class="col-md-6 col-sm-12">
+          <img src="https://files.porsche.com/filestore/image/multimedia/none/982-718gt4-modelimage-sideshot/model/5b3fd684-85f2-11e9-80c4-005056bbdc38/porsche-model.png" alt="gt4" style="width: 100%;">
+        </div>
+        <div class="col-md-6 col-sm-12">
+          <h3 >Porsche 718 GT4</h3>
+          <p style="text-align: justify;">Lorem ipsum dolor, sit amet consectetur adipisicing elit</p>
+          <h3>64 000,00</h3>
+        </div>
+      </div>
+      <form action="">
+        <div class="row">
+          <div class="col-md-6 col-sm-12">
+            <input type="text" id="meno" name="formular" placeholder="Meno">
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <input type="text" id="priezvisko" name="formular" placeholder="Priezvisko">
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <input type="email" id="email" name="formular" placeholder="Email">
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <input type="tel" id="tel" name="formular" placeholder="Telefon">
+          </div>
+          <div class="col-12">
+            <input type="text" id="poznamka" name="formular" placeholder="Poznamka">
+          </div>
+          <p style="font-weight: bold; margin: 50px 0; font-size: 1.2rem;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam iusto tempora molestias excepturi perspiciatis rerum placeat, illo adipisci. Quia sunt quos voluptates minus sit maxime nisi impedit harum ipsa esse!</p>
+          <div class="osudaje">
+            <input type="checkbox" name="os" id="osudaje">
+            <p> vel reiciendis, <a href="" style="font-weight: bold; text-decoration: underline;">sequi non cum optio ea, delectus</a>  quis deserunt </p>
+          </div>
+          <div class="osudaje">
+            <input type="checkbox" name="os" id="osudaje">
+            <p>Loat vero vel reiciendis, <a href="" style="font-weight: bold; text-decoration: underline;">sequi non cum optio ea, delectus</a>  quis deserunt ma</p>
+          </div>
+          <div class="container-fluid p-0">
+            <input type="submit" value="Odoslat" class="button">
+          </div>
+        </div>
+      </form>
+      <div style="height: 200px;"></div>
+    </div>
+  </div>
+
+
+<!-- Panamera -->
+
+  <div class="container-fluid car1 p-0" id="panamera">
+    <div class="container">
+      <h2 style="margin: 40px 0; text-align: center;">Poziadat o vozidlo</h2>
+      <div class="carsh row">
+        <div class="col-md-6 col-sm-12">
+          <img src="https://files.porsche.com/filestore/image/multimedia/none/971-g2-2nd-tus-modelimage-sideshot/model/ccfbfa0b-d324-11ea-80cc-005056bbdc38/porsche-model.png" alt="panamera" style="width: 100%;">
+        </div>
+        <div class="col-md-6 col-sm-12">
+          <h3 >Porsche Panamera</h3>
+          <p style="text-align: justify;">Lorem ipsum dolor, sit amet consectetur adipisicing elit</p>
+          <h3>58 000,00</h3>
+        </div>
+      </div>
+      <form action="">
+        <div class="row">
+          <div class="col-md-6 col-sm-12">
+            <input type="text" id="meno" name="formular" placeholder="Meno">
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <input type="text" id="priezvisko" name="formular" placeholder="Priezvisko">
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <input type="email" id="email" name="formular" placeholder="Email">
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <input type="tel" id="tel" name="formular" placeholder="Telefon">
+          </div>
+          <div class="col-12">
+            <input type="text" id="poznamka" name="formular" placeholder="Poznamka">
+          </div>
+          <p style="font-weight: bold; margin: 50px 0; font-size: 1.2rem;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam iusto tempora molestias excepturi perspiciatis rerum placeat, illo adipisci. Quia sunt quos voluptates minus sit maxime nisi impedit harum ipsa esse!</p>
+          <div class="osudaje">
+            <input type="checkbox" name="os" id="osudaje">
+            <p> vel reiciendis, <a href="" style="font-weight: bold; text-decoration: underline;">sequi non cum optio ea, delectus</a>  quis deserunt </p>
+          </div>
+          <div class="osudaje">
+            <input type="checkbox" name="os" id="osudaje">
+            <p>Loat vero vel reiciendis, <a href="" style="font-weight: bold; text-decoration: underline;">sequi non cum optio ea, delectus</a>  quis deserunt ma</p>
+          </div>
+          <div class="container-fluid p-0">
+            <input type="submit" value="Odoslat" class="button">
+          </div>
+        </div>
+      </form>
+      <div style="height: 200px;"></div>
+    </div>
+  </div>
+
+
+
+<div class="wind" id="win">
+
+  <div class="container-fluid p-0 headPageImage">
+    <img data-aos="fade" data-aos-duration="2000" src="https://www.porschedriving.com/los-angeles/-/media/porschedrivinglosangeles/backgrounds/pec-landing-page/desktop/011422peclala-landing-pagehero-bannerdesktopacademy-10.jpg" style="object-fit: cover; object-position: center; height: 100%; width: 100%; position: absolute; z-index: 1; filter: brightness(90%); user-select: none;">
+    <div style="margin-left: 8vw; z-index: 2;">
+        <h3 data-aos="fade-down" data-aos-duration="1500" data-aos-delay="500">Porsche</h3>
+        <h1 data-aos="fade-right" data-aos-duration="2000" data-aos-delay="500">Pre-order vehicles</h1>
+    </div>
+</div>
+
+
+<div style="height: 150px;"></div>
+
+<div class="container">
+  <div class="row">
+
+
+    <div class="col-lg-4 col-sm-6" onclick="cayman()">
+      <div class="card mb-3 mt-2">
+        <img src="https://files.porsche.com/filestore/image/multimedia/none/982-718-c7s-modelimage-sideshot/model/af021b27-d5ba-11ec-80ef-005056bbdc38/porsche-model.png" class="card-img-top" alt="718">
+        <div class="card-body">
+          <h3 class="card-title">Porsche 718 Cayman</h3>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          <p class="card-text"><small class="text-body-secondary">78 000,00 €</small></p>
+        </div>
+      </div>       
+    </div>
+
+    <div class="col-lg-4 col-sm-6" onclick="taycan()">
+      <div class="card mb-3 mt-2">
+        <img src="https://files.porsche.com/filestore/image/multimedia/none/j1-taycan-modelimage-sideshot/model/e36a18ca-fffb-11eb-80dd-005056bbdc38/porsche-model.png" class="card-img-top" alt="Taycan">
+        <div class="card-body">
+          <h3 class="card-title">Porsche Taycan</h3>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          <p class="card-text"><small class="text-body-secondary">88 000,00</small></p>
+        </div>
+      </div>       
+    </div>
+
+    <div class="col-lg-4 col-sm-6" onclick="cayanne()">
+      <div class="card mb-3 mt-2">
+        <img src="https://files.porsche.com/filestore/image/multimedia/none/e3-2nd-cayenne-s-modelimage-sideshot/model/06955e42-e03e-11ed-8101-005056bbdc38/porsche-model.png" class="card-img-top" alt="Cayanne">
+        <div class="card-body">
+          <h3 class="card-title">Porsche Cayanne</h3>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          <p class="card-text"><small class="text-body-secondary">55 000,00</small></p>
+        </div>
+      </div>       
+    </div>
+
+    <div class="col-lg-4 col-sm-6" onclick="p911gt3()">
+      <div class="card mb-3 mt-2">
+        <img src="https://files.porsche.com/filestore/image/multimedia/none/992-gt3-modelimage-sideshot/model/765dfc51-51bc-11eb-80d1-005056bbdc38/porsche-model.png" class="card-img-top" alt="gt3">
+        <div class="card-body">
+          <h3 class="card-title">Porsche 911 GT3</h3>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          <p class="card-text"><small class="text-body-secondary">118 000,00</small></p>
+        </div>
+      </div>       
+    </div>
+
+    <div class="col-lg-4 col-sm-6" onclick="p718gt4()">
+      <div class="card mb-3 mt-2">
+        <img src="https://files.porsche.com/filestore/image/multimedia/none/982-718gt4-modelimage-sideshot/model/5b3fd684-85f2-11e9-80c4-005056bbdc38/porsche-model.png" class="card-img-top" alt="gt4">
+        <div class="card-body">
+          <h3 class="card-title">Porsche 718 GT4</h3>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          <p class="card-text"><small class="text-body-secondary">64 000,00</small></p>
+        </div>
+      </div>       
+    </div>
+
+    <div class="col-lg-4 col-sm-6" onclick="panamera()">
+      <div class="card mb-3 mt-2">
+        <img src="https://files.porsche.com/filestore/image/multimedia/none/971-g2-2nd-tus-modelimage-sideshot/model/ccfbfa0b-d324-11ea-80cc-005056bbdc38/porsche-model.png" class="card-img-top" alt="panamera">
+        <div class="card-body">
+          <h3 class="card-title">Porsche Panamera</h3>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          <p class="card-text"><small class="text-body-secondary">58 000,00</small></p>
+        </div>
+      </div>       
+    </div>
+
+
+  </div>
+</div>
+
+<div style="height: 150px;"></div>
+
+
+
+</div>
+
+  
+
+
+  
+
+
+
+
+
+
+  <footer>
+    <div style="height: 100px;"></div>
+    <div class="container">
+      <h3>Porsche Company</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque maxime unde fugit quibusdam aspernatur amet, id adipisci rerum in fugiat optio quos, ex placeat eum autem laboriosam asperiores aperiam deserunt!</p>
+      <p>Matus Jurica</p>
+    </div>
+    <div style="height: 25px;"></div>
+  </footer>
+
     
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
@@ -17,5 +479,6 @@
     <script>
       AOS.init();
     </script>
+    <script src="../../JS/index.js"></script>
 </body>
 </html>

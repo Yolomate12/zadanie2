@@ -1,0 +1,107 @@
+body {
+    background-color: rgb(241, 241, 241);
+}
+.headPageImage {
+    background-image: none;
+}
+.navbar {
+    background-color: white;
+}
+.card-text small {
+    font-weight: bold;
+    font-size: 1.8rem;
+    margin-top: 40px;
+}
+.card {
+    transition: transform 0.3s;
+    transition: transform 0.3s, background-color 0.3s;
+    border-radius: 0;
+}
+
+.card:hover {
+    cursor: pointer;
+    transform: scale(103%);
+    background-color: rgb(247, 247, 247);
+    transition: transform 0.3s, background-color 0.3s;
+}
+.card h3:hover {
+    text-decoration: underline;
+}
+.wind {
+    display: block;
+}
+.car1 {
+    display: none;
+}
+.car1 .container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.carsh {
+    width: 50%;
+}
+.carsh div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+}
+.carsh h3 {
+    text-align: center;
+}
+
+form {
+    width: 70%;
+}
+form input {
+    width: 100%;
+    padding: 10px 20px;
+    border: 0;
+    border-bottom: 2px solid gray;
+    margin-top: 50px;
+}
+form input:focus {
+    outline: 0;
+    border-bottom: 2px solid black;
+    background-color: rgb(247, 247, 247);
+}
+
+.osudaje {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.osudaje input {
+    margin: 0;
+    height: 24px !important;
+    width: 24px !important;
+    margin-right: 40px;
+}
+
+@media screen and (max-width: 1000px) {
+    .container h2 {
+        font-size: 3.5rem;
+    }
+    .container h3 {
+        font-size: 2rem;
+    }
+    .carsh {
+        width: 100%;
+    }
+    
+}
+@media screen and (max-width: 576px) {
+    form {
+        width: 90%;
+    }
+    .car1 .container {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+}
