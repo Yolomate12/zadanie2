@@ -1,4 +1,5 @@
-let start = document.getElementById("win")
+var start = document.getElementById("win")
+var closearrow = document.getElementById("close")
 
 
 function cayman() {
@@ -6,6 +7,7 @@ function cayman() {
 
     form.style.display = "block"
     start.style.display = "none"
+    closearrow.style.display = "block"
     window.scrollTo(0,0);
 
 
@@ -14,8 +16,10 @@ function cayman() {
 function taycan() {
     let form = document.getElementById("taycan");
 
+    close.s
     form.style.display = "block"
     start.style.display = "none"
+    closearrow.style.display = "block"
     window.scrollTo(0,0);
 
 
@@ -26,6 +30,7 @@ function cayanne() {
 
     form.style.display = "block"
     start.style.display = "none"
+    closearrow.style.display = "block"
     window.scrollTo(0,0);
 
 
@@ -34,8 +39,10 @@ function cayanne() {
 function p911gt3() {
     let form = document.getElementById("pgt3");
 
+    close.s
     form.style.display = "block"
     start.style.display = "none"
+    closearrow.style.display = "block"
     window.scrollTo(0,0);
 
 
@@ -44,8 +51,10 @@ function p911gt3() {
 function p718gt4() {
     let form = document.getElementById("pgt4");
 
+    close.s
     form.style.display = "block"
     start.style.display = "none"
+    closearrow.style.display = "block"
     window.scrollTo(0,0);
 
 
@@ -54,8 +63,10 @@ function p718gt4() {
 function panamera() {
     let form = document.getElementById("panamera");
 
+    close.s
     form.style.display = "block"
     start.style.display = "none"
+    closearrow.style.display = "block"
     window.scrollTo(0,0);
 
 

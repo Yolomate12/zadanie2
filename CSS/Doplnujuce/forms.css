@@ -13,9 +13,9 @@ body {
     margin-top: 40px;
 }
 .card {
-    transition: transform 0.3s;
     transition: transform 0.3s, background-color 0.3s;
     border-radius: 0;
+    flex-grow: 1;
 }
 
 .card:hover {
@@ -81,6 +81,25 @@ form input:focus {
     height: 24px !important;
     width: 24px !important;
     margin-right: 40px;
+}
+.closeBut {
+    position: absolute;
+    top: 186px;
+    left: 20px;
+    z-index: 9;
+    display: none;
+    background-color: white;
+    padding: 20px;
+}
+.closeBut svg {
+    height: 40px;
+    width: 40px;
+    transition: transform 0.2s;
+}
+.closeBut svg:hover {
+    cursor: pointer;
+    transform: scale(110%);
+    transition: transform 0.2s;
 }
 
 @media screen and (max-width: 1000px) {
