@@ -41,12 +41,6 @@
     transform: scale(110%);
     transition: transform 0.3s, filter 0.3s;
 }
-#race div a img {
-    object-fit: cover;
-    object-position: center;
-    height: 720;
-    width: 1280;
-}
 
 
 @media screen and (max-width: 1440px) {
