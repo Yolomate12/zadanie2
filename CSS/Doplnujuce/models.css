@@ -31,15 +31,15 @@
 }
 
 #race2 div a {
-    filter: brightness(70%);
-    transition: transform 0.3s, filter 0.3s;
+    filter: brightness(80%);
+    transition: transform 0.2s, filter 0.2s;
     padding-top: 12px;
     padding-bottom: 12px;
 }
 #race2 div a:hover {
     filter: brightness(100%);
     transform: scale(110%);
-    transition: transform 0.3s, filter 0.3s;
+    transition: transform 0.2s, filter 0.2s;
 }
 
 

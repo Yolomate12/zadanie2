@@ -77,6 +77,19 @@ a {
 .navbar-brand img {
     height: 60px;
 }
+.navbar-brand {
+    margin-right: 50px;
+}
+.nav-link {
+    font-size: 1.2rem;
+    transition: font-weight 0.3s;
+}
+
+.nav-link:hover {
+    font-weight: bold;
+    transition: font-weight 0.3s;
+}
+
 .navbar-toggler {
     border: 0;
 }
