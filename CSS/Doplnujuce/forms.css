@@ -7,6 +7,9 @@ body {
 .navbar {
     background-color: white;
 }
+
+/* Nastavenie kariet */
+
 .card-text small {
     font-weight: bold;
     font-size: 1.8rem;
@@ -53,6 +56,9 @@ body {
 .carsh h3 {
     text-align: center;
 }
+
+
+/* Nastavenie inputov a formulara */
 
 form {
     width: 70%;
@@ -101,6 +107,8 @@ form input:focus {
     transform: scale(110%);
     transition: transform 0.2s;
 }
+
+/* Responzivny dizajn */
 
 @media screen and (max-width: 1000px) {
     .container h2 {

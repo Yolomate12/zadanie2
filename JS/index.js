@@ -1,14 +1,20 @@
-var start = document.getElementById("win")
-var closearrow = document.getElementById("close")
+/* JS pre DOM forms.html
+    - zmiznutie hl. obsahu po kliknuti na kartu a otvorenie formulara
+*/
+
+
+
+var start = document.getElementById("win") /* Hl. obsah */
+var closearrow = document.getElementById("close") /* Button na zatvorenie okna */
 
 
 function cayman() {
-    let form = document.getElementById("p718");
+    let form = document.getElementById("p718"); /* Vyber elementu */
 
-    form.style.display = "block"
-    start.style.display = "none"
-    closearrow.style.display = "block"
-    window.scrollTo(0,0);
+    form.style.display = "block"                /* Display block pre formular */
+    start.style.display = "none"                /* Zmiznutie hl. obsahu */
+    closearrow.style.display = "block"          /* Zobrazenie Buttonu */
+    window.scrollTo(0,0);                       /* Scrollnutie na top stranky po otvoreni formulara */
 
 
     return;

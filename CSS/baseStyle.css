@@ -3,7 +3,7 @@
 * {
     font-family: Roboto, Helvetica, sans-serif;
 }
-
+/* Default nastavenia pisma a tlacidiel */
 h1 {
     font-size: 8rem;
     font-weight: 700;
@@ -66,7 +66,7 @@ a {
 }
 
 
-
+/* Uprava navbaru */
 
 .navbar {
     position: fixed;
@@ -100,7 +100,7 @@ a {
     text-decoration: none;
   }
 
-
+/* Uvodny obrazok */
 
 .headPageImage {
     background-image: url('https://bluesky.cdn.imgeng.in/cogstock-images/65acd2eb-cace-41f4-af8d-a7076eef17da.jpg?migeng=/w_1200/');
@@ -120,7 +120,7 @@ a {
     margin-top: 15px;
 }
 
-
+/* Obsah odseky */
 
 .modelLink {
     display: flex;
@@ -180,6 +180,7 @@ footer p {
     display: none;
 }
 
+/* Responzivny dizajn */
 
 @media screen and (max-width: 1400px) {
     .modelLink {
