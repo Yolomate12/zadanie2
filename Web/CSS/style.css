@@ -90,7 +90,7 @@ p {
 /* Navbar */
 header {
     position: relative;
-    z-index: 100;
+    z-index: 98;
     overflow-x: hidden;
 }
 .wrap {
