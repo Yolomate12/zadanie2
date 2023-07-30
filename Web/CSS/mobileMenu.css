@@ -1,5 +1,5 @@
 .offcanvas-body {
-    margin-top: 40px;
+    margin-top: 15px;
     position: relative;
     overflow: hidden;
 }
@@ -8,6 +8,7 @@
     background-color: transparent;
 }
 .accordion-body h6 {
+    font-size: 1rem;
     margin: 20px 0 0 0;
     font-weight: 200;
     transition: transform 0.3s;
@@ -26,6 +27,9 @@
     margin: 24px 0 0 0;
     padding: 0;
 }
+.accordion-button h5 {
+    font-size: 1.5rem;
+}
 .accordion-button:focus {
     z-index: 0;
     border-color: white !important;
@@ -41,14 +45,14 @@ background-color: transparent;
 
 .tel {
     position: absolute;
-    bottom: 40px;
+    bottom: 25px;
 }
 .tel h5 {
     font-weight: 200;
-    font-size: 1.5rem;
+    font-size: 1rem;
     margin-top: 15px;
 }
-.bgImage {
+/* .bgImage {
     position: absolute;
     height: 50vh;
     bottom: -100px;
@@ -61,7 +65,7 @@ background-color: transparent;
     width: 100%;
     object-fit: cover;
     object-position: center;
-}
+} */
 @media only screen and (max-width: 460px) {
     .offcanvas.offcanvas-start {
         width: 100vw;
