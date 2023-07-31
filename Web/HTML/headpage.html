@@ -15,14 +15,13 @@
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="../CSS/hoverMenu.css">
     <link rel="stylesheet" href="../CSS/mobileMenu.css">
 
 
 </head>
 <body>
-    <!-- <div class="mobileMenu">
 
-    </div> -->
 
     <div class="offcanvas offcanvas-start" data-bs-scroll="false" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel" style="border: 0;">
         <div class="offcanvas-header">
@@ -109,9 +108,9 @@
             </a>
             <div class="navbarLink">
                 <a href="" class="Link hover-underline-animation"><h6>O nas</h6></a> 
-                <a href="" class="Link hover-underline-animation"><h6>Sluzby</h6></a> 
-                <a href="" class="Link hover-underline-animation"><h6>Referencie</h6></a> 
-                <a href="" class="Link hover-underline-animation"><h6>Cennik</h6></a> 
+                <a href="" class="Link hover-underline-animation" id="hoverEff1"><h6>Sluzby</h6></a> 
+                <a href="" class="Link hover-underline-animation" id="hoverEff2"><h6>Referencie</h6></a> 
+                <a href="" class="Link hover-underline-animation" id="hoverEff3"><h6>Cennik</h6></a> 
                 <a href="" class="Link hover-underline-animation"><h6>Kontakt</h6></a>
             </div>
             <div class="menu" id="menu" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">
@@ -148,7 +147,7 @@
                         <img src="https://storage.googleapis.com/pai-images/4e952cee427748aca3d4f4b7967c9d7a.jpeg" alt="Image">
                     </div>
                     <div class="col-xl-6 col-12 order-xl-1 order-0 mb-xl-0 mb-3 contentText">
-                        <h3>Domy, IBV, Byty</h3>
+                        <h4>Domy, IBV, Byty</h4>
                         <p>Lorem, ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus iure temporibus at asperiores, sed deserunt dolore tenetur et enim praesentium, illo doloribus pariatur quod rerum fugiat voluptas. Assumenda, cupiditate iusto. adipisicing elit. Dolorem repellat incidunt eveniet natus vitae laudantium excepturi, neque at non placeat explicabo quasi quaerat rem sit ut fugit eos veniam itaque? <br><br> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat quae, quo, optio est nam eos minus illo doloribus quas saepe ducimus quidem excepturi voluptas enim ullam. Officia odit consequuntur quisquam. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum nam sapiente ad accusantium quos ipsa, veniam illum delectus illo aliquam quae tempora commodi veritatis deserunt perspiciatis aut? Ad, eius doloribus.</p>
                         <a href="" class="button" id="button">
                             <div id="Fade"></div>
@@ -222,6 +221,63 @@
             </div>
         </section>
 
+
+        <section style="padding: 100px 0;">
+            <h3 style="text-align: center; margin-bottom: 80px;">Referencie</h3>
+
+            <div style="display: flex; flex-direction: column; width: 100%; gap: 150px;">
+                <div class="Wrapper">
+                    <div class="row justify-content-evenly">
+                        <div class="col-xl-5 col-lg-6 col-md-12 contentText " style="gap: 80px;">
+                            <h4>AquaPark Lipany</h4>
+                            <p>&emsp; Výstavba Aquaparku Lipany bola náročným a fascinujúcim procesom. Plánovanie a projektovanie komplexu, získanie povolení od miestnych úradov a samotné stavebné práce - to všetko bolo nevyhnutné na to, aby sa z tejto vízie stala skutočná oáza zábavy a relaxácie. <br><br>&emsp; Konštrukcia bazénov a toboganov vyžadovala precíznu prácu odborníkov, ktorí dbali na bezpečnosť a zábavnosť pre návštevníkov. Moderné technológie a zariadenia, ako čističky vody, vykurovanie a osvetlenie, boli nainštalované pre optimálny komfort návštevníkov.<br>&emsp; Po dokončení a úspešných skúškach bol Aquapark Lipany slávnostne otvorený pre verejnosť. Dnes je to obľúbené miesto pre rodinné výlety, oslavy aj oddych. Návštevníci si užívajú nezabudnuteľné chvíle plné radosti a pohody v srdci krásnej slovenskej krajiny.</p>
+                            <a href="" class="button" id="button">
+                                <div id="Fade"></div>
+                                <h6>Viac</h6>
+                            </a>
+                        </div>
+                        <div class="col-xl-4 col-lg-6 col-md-12 ad m-md-0 m-5">
+                            <img src="https://aquaparklipany.eu/wp-content/uploads/2021/07/Aquapark-Lipany-Summer-2021-6-scaled.jpg" alt="Lipany">
+                        </div>
+                    </div>
+                </div>
+                <div class="Wrapper">
+                    <div class="row justify-content-evenly">
+                        <div class="col-xl-5 col-lg-6 col-md-12 contentText order-lg-1 order-0" style="gap: 80px;">
+                            <h4>AquaPark Lipany</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur fugit quam ad, incidunt ipsa nisi rerum, sunt deleniti, rem cumque maxime fugiat recusandae quasi saepe quia nobis et quo earum? Lorem ipsum dolor sit, amet consectetur adipisicing elit. <br><br>Asperiores praesentium nobis nemo possimus recusandae optio voluptatibus mollitia, quod nihil pariatur eius explicabo adipisci modi odio autem quia, cumque, quas eveniet!</p>
+                            <a href="" class="button" id="button">
+                                <div id="Fade"></div>
+                                <h6>Viac</h6>
+                            </a>
+                        </div>
+                        <div class="col-xl-4 col-lg-6 col-md-12 order-lg-0 order-1 ad m-lg-0 m-5">
+                            <img src="https://aquaparklipany.eu/wp-content/uploads/2021/07/Aquapark-Lipany-Summer-2021-6-scaled.jpg" alt="Lipany">
+                        </div>
+                    </div>
+                </div>
+                <div class="Wrapper">
+                    <div class="row justify-content-evenly">
+                        <div class="col-xl-5 col-lg-6 col-md-12 contentText " style="gap: 80px;">
+                            <h4>AquaPark Lipany</h4>
+                            <p>Výstavba Aquaparku Lipany bola náročným a fascinujúcim procesom. Plánovanie a projektovanie komplexu, získanie povolení od miestnych úradov a samotné stavebné práce - to všetko bolo nevyhnutné na to, aby sa z tejto vízie stala skutočná oáza zábavy a relaxácie. Konštrukcia bazénov a toboganov vyžadovala precíznu prácu odborníkov, ktorí dbali na bezpečnosť a zábavnosť pre návštevníkov. Moderné technológie a zariadenia, ako čističky vody, vykurovanie a osvetlenie, boli nainštalované pre optimálny komfort návštevníkov. Po dokončení a úspešných skúškach bol Aquapark Lipany slávnostne otvorený pre verejnosť. Dnes je to obľúbené miesto pre rodinné výlety, oslavy aj oddych. Návštevníci si užívajú nezabudnuteľné chvíle plné radosti a pohody v srdci krásnej slovenskej krajiny.</p>
+                            <a href="" class="button" id="button">
+                                <div id="Fade"></div>
+                                <h6>Viac</h6>
+                            </a>
+                        </div>
+                        <div class="col-xl-4 col-lg-6 col-md-12 ad m-lg-0 m-5">
+                            <img src="https://aquaparklipany.eu/wp-content/uploads/2021/07/Aquapark-Lipany-Summer-2021-6-scaled.jpg" alt="Lipany">
+                        </div>
+                    </div>
+                </div>
+            
+            </div>
+
+            
+
+        </section>
+
     </main>
 
 
@@ -229,6 +285,7 @@
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script src="../JAVAscript/hover.js"></script>
     <script src="../JAVAscript/button.js"></script>
 </body>
 </html>
