@@ -10,21 +10,21 @@ h1, h2, h3, h4, h5, h6, p, a {
 }
 h1  {
     font-size: 8rem;
-    font-weight: 900;
+    font-weight: 200;
     text-transform: uppercase;
 }
 h2  {
     font-size: 6rem;
-    font-weight: 600;
+    font-weight: 200;
     line-height: 1;
 }
 h3  {
-    font-weight: 700;
+    font-weight: 200;
     font-size: 5rem;
 }
 h4  {
     font-size: 3rem;
-    font-weight: 800;
+    font-weight: 200;
 }
 h5  {
     font-size: 1.8rem;
@@ -262,9 +262,45 @@ header {
     color: rgb(255, 0, 0);
     transition: color 0.3s;
 }
+.kolektiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+.kolektiv h4 {
+    padding: 20px;
+    text-align: center;
+    line-height: 1.2;
+}
+.kolektiv p {
+    padding: 20px;
+}
+.kolImg {
+    padding: 20px;
+    aspect-ratio: 1/1;
+    max-height: 350px;
+}
+.kolImg img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 100%;
+}
 
-
-
+.footerLinks {
+    margin-top: 40px;
+}
+.footerLinks h6 {
+    font-weight: 200;
+    margin-top: 10px;
+    line-height: 1.2;
+}
+.footerLinks h6:hover {
+    transform: scale(105%);
+    transition: transform 0.3s;
+}
 
 
 @media only screen and (max-width: 1175px) {
@@ -286,8 +322,11 @@ header {
     h3 {
         font-size: 2.5rem;
     }
+    h4 {
+        font-size: 2rem;
+    }
     p {
-        font-size: 0.9rem;
+        font-size: 1rem;
         margin: 0;
     }
 
@@ -315,5 +354,8 @@ header {
     .Wrapper {
         margin: 0 12px;
         justify-content: center;
+    }
+    .kolektiv {
+        margin-bottom: 50px;
     }
 }
