@@ -1,0 +1,74 @@
+.offcanvas-body {
+    margin-top: 15px;
+    position: relative;
+    overflow: hidden;
+}
+.accordion-body {
+    padding: 6px 20px;
+    background-color: transparent;
+}
+.accordion-body h6 {
+    font-size: 1rem;
+    margin: 20px 0 0 0;
+    font-weight: 200;
+    transition: transform 0.3s;
+    background-color: transparent;
+}
+.accordion-body h6:hover {
+    font-weight: 400;
+    transform: scale(105%);
+    transition: transform 0.3s;
+}
+
+.accordion-item {
+    border: 0;
+}
+.accordion-button {
+    margin: 24px 0 0 0;
+    padding: 0;
+}
+.accordion-button h5 {
+    font-size: 1.5rem;
+}
+.accordion-button:focus {
+    z-index: 0;
+    border-color: white !important;
+    outline: 0;
+    box-shadow: none;
+  }
+.accordion-button:not(.collapsed) {
+background-color: transparent;
+}
+.btn-close:focus {
+    box-shadow: none;
+}
+
+.tel {
+    position: absolute;
+    bottom: 25px;
+}
+.tel h5 {
+    font-weight: 200;
+    font-size: 1rem;
+    margin-top: 15px;
+}
+/* .bgImage {
+    position: absolute;
+    height: 50vh;
+    bottom: -100px;
+    right: -50px;
+    z-index: 3;
+}
+.bgImage img {
+    opacity: 20%;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+} */
+@media only screen and (max-width: 460px) {
+    .offcanvas.offcanvas-start {
+        width: 100vw;
+    }
+}
+
