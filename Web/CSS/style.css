@@ -108,13 +108,14 @@ header {
 .navbarLink {
     display: flex;
     flex-wrap: nowrap;
-    gap: 20px;
+    gap: 10px;
 }
 .Link {
-    padding: 20px;
+    padding: 31px 20px;
 }
 .Link h6 {
     transition: color 0.25s;
+    white-space: nowrap;
 }
 .Link:hover h6 {
     color: red;
@@ -162,7 +163,6 @@ header {
     z-index: 2;
     background-color: white;
     user-select: none;
-
 }
 .wellTextWrap h1 {
     font-weight: 500;
@@ -303,7 +303,7 @@ header {
 }
 
 
-@media only screen and (max-width: 1175px) {
+@media only screen and (max-width: 1390px) {
     .navbarLink {
         display: none;
     }
@@ -354,6 +354,19 @@ header {
     .Wrapper {
         margin: 0 12px;
         justify-content: center;
+    }
+    .ItemArea h5 {
+        font-size: 1.2rem;
+    }
+    .ItemArea {
+        margin: 0;
+    }
+    .Item {
+        padding: 20px;
+    }
+    .Item svg {
+        height: 100px;
+        width: 100px;
     }
     .kolektiv {
         margin-bottom: 50px;
