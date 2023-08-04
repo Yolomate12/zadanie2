@@ -100,7 +100,7 @@ header {
     gap: 80px;
     align-items: center;
     justify-content: space-between;
-    margin: 30px 20% 20px 20%;
+    margin: 30px 15% 20px 15%;
 }
 .logo img {
     height: 80px;
@@ -184,7 +184,7 @@ header {
 
 /* Content Rodinne Domy */
 .Wrapper {
-    margin: 0 20%;
+    margin: 0 16%;
     display: flex;
     gap: 20px;
     justify-content: center;
@@ -245,8 +245,8 @@ header {
     transition: background-color 0.3s;
 }
 .Item svg {
-    height: 150px;
-    width: 150px;
+    height: 100px;
+    width: 100px;
     
 }
 
@@ -312,7 +312,15 @@ header {
     .menu {
         display: block;
     }
+    
 }
+@media only screen and (max-width: 1000px) {
+    .Wrapper {
+        margin: 0 12px;
+        justify-content: center;
+    }
+}
+    
 
 @media only screen and (max-width: 630px) {
     h1 {
@@ -353,10 +361,7 @@ header {
     .wellcomeImage {
         height: calc(100vh - 243.283px);
     }
-    .Wrapper {
-        margin: 0 12px;
-        justify-content: center;
-    }
+    
     .ItemArea h5 {
         font-size: 1.2rem;
     }
