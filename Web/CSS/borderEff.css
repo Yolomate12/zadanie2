@@ -1,0 +1,20 @@
+.borderEff::before {
+    position: absolute;
+    content: '';
+    top: 0;
+    right: 0;
+    height: 100px;
+    width: 100px;
+    border-top: 3px solid #212529;
+    border-right: 3px solid #212529;
+}
+.borderEff::after {
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: 0;
+    height: 100px;
+    width: 100px;
+    border-left: 3px dashed #212529;
+    border-bottom: 3px dashed #212529;
+}

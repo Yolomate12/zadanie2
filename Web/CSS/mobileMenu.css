@@ -52,20 +52,6 @@ background-color: transparent;
     font-size: 1rem;
     margin-top: 15px;
 }
-/* .bgImage {
-    position: absolute;
-    height: 50vh;
-    bottom: -100px;
-    right: -50px;
-    z-index: 3;
-}
-.bgImage img {
-    opacity: 20%;
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    object-position: center;
-} */
 @media only screen and (max-width: 460px) {
     .offcanvas.offcanvas-start {
         width: 100vw;

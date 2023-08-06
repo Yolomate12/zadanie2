@@ -1,6 +1,4 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
- */
- @import url('https://fonts.googleapis.com/css2?family=REM:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=REM:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 h1, h2, h3, h4, h5, h6, p, a {
     font-family: 'REM', sans-serif;
     text-decoration: none;
@@ -100,10 +98,13 @@ header {
     gap: 80px;
     align-items: center;
     justify-content: space-between;
-    margin: 30px 15% 20px 15%;
+    margin: 30px 16% 20px 16%;
 }
 .logo img {
     height: 80px;
+}
+#mobileLogo {
+    display: none;
 }
 .navbarLink {
     display: flex;
@@ -159,14 +160,9 @@ header {
     overflow-x: hidden;
 }
 .wellTextWrap {
-    padding: 80px 20% 80px 20%;
+    padding: 80px 16% 80px 16%;
     z-index: 2;
     background-color: white;
-    user-select: none;
-}
-.wellTextWrap h1 {
-    font-weight: 500;
-    margin-top: 20px;
 }
 .wellcomeImage {
     height: calc(100vh - 407.6px);
@@ -189,35 +185,6 @@ header {
     gap: 20px;
     justify-content: center;
 }
-
-
-.ad img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: center;
-}
-.iad div {
-    padding: 0 12px 24px 12px;
-}
-
-.contentText {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: end;
-    gap: 40px;
-}
-.contentText h4 {
-    text-align: center;
-    width: 100%;
-    margin-bottom: 24px;
-}
-
-/* .bottomImg img {
-    width: 20%;
-} */
-
 
 /* Sluzby */
 .ItemArea {
@@ -289,8 +256,6 @@ header {
     object-position: center;
     border-radius: 100%;
 }
-.footermenu {
-}
 .footeraddress {
     display: flex;
     flex-direction: column;
@@ -313,11 +278,21 @@ header {
         display: block;
     }
     
+    
 }
 @media only screen and (max-width: 1000px) {
     .Wrapper {
         margin: 0 12px;
         justify-content: center;
+    }
+    #fullLogo {
+        display: none;
+    }
+    #mobileLogo {
+        display: block;
+    }
+    .logo img {
+        height: 30px;
     }
 }
     
@@ -339,16 +314,19 @@ header {
         font-size: 1rem;
         margin: 0;
     }
-
-
-
-
+    .wrap {
+        margin: 20px 24px;
+        position: relative;
+    }
     .logo img {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
         height: 25px;
     }
-    .wrap {
-        margin: 24px;
-    }
+
+    
     header {
         position: fixed;
         width: 100%;
