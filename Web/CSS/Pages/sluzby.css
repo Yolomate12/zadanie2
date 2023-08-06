@@ -1,0 +1,67 @@
+h5 {
+    line-height: 1.1;
+}
+strong {
+    font-weight: 600;
+}
+#start {
+    background-image: url(../../../Images/clouds.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.sluzby {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 20px 20px 20px 20px;
+}
+.sluzby div {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.sluzby svg {
+    height: 60px;
+    width: 60px;
+}
+.sluzby p {
+    margin-bottom: 50px;
+}
+.sluzby:nth-child(2), .sluzby:nth-child(4), .sluzby:nth-child(6) {
+    background-color: whitesmoke;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+@media only screen and (max-width: 1250px) {
+    .grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .sluzby:nth-child(2), .sluzby:nth-child(3), .sluzby:nth-child(6) {
+        background-color: whitesmoke;
+    }
+    .sluzby:nth-child(1), .sluzby:nth-child(4), .sluzby:nth-child(5) {
+        background-color: white;
+    }
+}
+@media only screen and (max-width: 630px) {
+    #start {
+        padding-top: 200px !important;
+    }
+    .grid {
+        grid-template-columns: 1fr;
+    }
+    .sluzby:nth-child(2), .sluzby:nth-child(4), .sluzby:nth-child(6) {
+        background-color: white;
+    }
+    .sluzby:nth-child(1), .sluzby:nth-child(3), .sluzby:nth-child(5) {
+        background-color: whitesmoke;
+    }
+    h5 {
+        font-size: 1.5rem;
+    }
+}
