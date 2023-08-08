@@ -1,0 +1,63 @@
+#start {
+    position: relative; 
+}
+#start h3, #start p {
+    color: white;
+}
+.borderEff::before, .borderEff::after {
+    border-color: white;
+}
+#start img {
+    position: absolute;
+    object-fit: cover;
+    object-position: center;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    filter: brightness(60%);
+}
+.galeria,
+.obsah {
+    display: flex;
+    flex-direction: column;
+}
+.galeria {
+    width: 65%;
+    gap: 40px;
+    order: 0;
+}
+.nahlad img {
+    object-fit: cover;
+    object-position: center;
+    height: 100%;
+    width: 100%;
+}
+.nahlad {
+    width: 100%;
+}
+.obsah {
+    width: 35%;
+    gap: 20px;
+    order: 1;
+}
+
+@media only screen and (max-width: 630px) {
+    #start {
+        padding-top: 200px !important;
+    }
+}
+@media only screen and (max-width: 800px) {
+    .gal {
+        flex-direction: column;
+        gap: 40px;
+    }
+    .obsah,
+    .galeria {
+        width: 100%;
+    }
+    .obsah {order: 0;}
+    .galeria {order: 1; gap: 12px;}
+}
+
+

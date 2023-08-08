@@ -6,17 +6,20 @@
     <title>P.J.D Ateliér</title>
 
 
-    <link rel="apple-touch-icon" sizes="180x180" href="../../Source/Icon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="../../Source/Icon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="../../Source/Icon/favicon-16x16.png">
-    <link rel="manifest" href="../../Source/Icon/site.webmanifest">
-    <link rel="mask-icon" href="../../Source/Icon/safari-pinned-tab.svg" color="#889ba0">
+    <link rel="apple-touch-icon" sizes="180x180" href="../../../Source/Icon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../../../Source/Icon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../../../Source/Icon/favicon-16x16.png">
+    <link rel="manifest" href="../../../Source/Icon/site.webmanifest">
+    <link rel="mask-icon" href="../../../Source/Icon/safari-pinned-tab.svg" color="#889ba0">
     <meta name="msapplication-TileColor" content="#ffffff">
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-    <link rel="stylesheet" href="../../CSS/style.css">
-    <link rel="stylesheet" href="../../CSS/mobileMenu.css">
-    <link rel="stylesheet" href="../../CSS/borderEff.css">
+    <link rel="stylesheet" href="../../../CSS/style.css">
+    <link rel="stylesheet" href="../../../CSS/mobileMenu.css">
+    <link rel="stylesheet" href="../../../CSS/borderEff.css">
+    <link rel="stylesheet" href="../../../CSS/gridDomy.css">
+    <link rel="stylesheet" href="../../../CSS/referencieGrid.css">
+    <link rel="stylesheet" href="../../../CSS/Pages/referencie.css">
 
 
 
@@ -30,7 +33,7 @@
           <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
         <div class="offcanvas-body">
-          <a href=""><h5 style="font-size: 1.5rem;">O nas</h5></a>
+          <a href="../o_nas.html"><h5 style="font-size: 1.5rem;">O nas</h5></a>
           <div class="accordion accordion-flush" id="accordionFlushExample">
             <div class="accordion-item">
               <h2 class="accordion-header">
@@ -41,7 +44,7 @@
               <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
                 <div class="accordion-body">
 
-                    <a href="sluzby.html"><h6>Projektová dokumentácia</h6></a>
+                    <a href="../sluzby.html"><h6>Projektová dokumentácia</h6></a>
                     <a href=""><h6>Energetické hodnotenie stavby</h6></a>
                     <a href=""><h6>Certifikácia budov</h6></a>
                     <a href=""><h6>Poradenská činnosť</h6></a>
@@ -60,7 +63,7 @@
               <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
                 <div class="accordion-body">
                     
-                    <a href="referencie.html"><h6>Rodinné domy a byty</h6></a>
+                    <a href="../referencie.html"><h6>Rodinné domy a byty</h6></a>
                     <a href=""><h6>Individuálna bytová Stavba</h6></a>
                     <a href=""><h6>Priemyselné stavby</h6></a>
                     <a href=""><h6>Aquapark</h6></a>
@@ -101,16 +104,16 @@
 
     <header>
         <div class="wrap">
-            <a href="../headpage.html" class="logo">
-                <img src="../../../Images/logo-vektor.png" alt="Logo" id="fullLogo">
-                <img src="../../../Images/logo-vektor-letters.png" alt="Logo" id="mobileLogo">
+            <a href="../../headpage.html" class="logo">
+                <img src="../../../../Images/logo-vektor.png" alt="Logo" id="fullLogo">
+                <img src="../../../../Images/logo-vektor-letters.png" alt="Logo" id="mobileLogo">
             </a>
             <div class="navbarLink">
-                <a href="" class="Link hover-underline-animation"><h6>O nas</h6></a> 
-                <a href="sluzby.html" class="Link hover-underline-animation"><h6>Sluzby</h6></a> 
-                <a href="referencie.html" class="Link hover-underline-animation"><h6>Referencie</h6></a> 
-                <a href="" class="Link hover-underline-animation"><h6>Cennik</h6></a> 
-                <a href="" class="Link hover-underline-animation"><h6>Kontakt</h6></a>
+                <a href="../o_nas.html" class="Link hover-underline-animation"><h6>O nas</h6></a> 
+                <a href="../sluzby.html" class="Link hover-underline-animation"><h6>Sluzby</h6></a> 
+                <a href="../referencie.html" class="Link hover-underline-animation"><h6>Referencie</h6></a> 
+                <a href="../cennik.html" class="Link hover-underline-animation"><h6>Cennik</h6></a> 
+                <a href="../kontakt.html" class="Link hover-underline-animation"><h6>Kontakt</h6></a>
             </div>
             <div class="menu" id="menu" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -122,63 +125,87 @@
 
     <main>
 
-        <section style="padding: 100px 0;">
-            <div class="Wrapper">
-                <div class="row justify-content-between borderEff m-lg-0 p-lg-5 p-4 m-0" style="padding: 50px; position: relative;">
-                    <div class="col-lg-6 col-12 p-0">
-                        <h3 style="margin-bottom: 40px;">Nieco o nas</h3>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi, ullam? Recusandae odit ratione culpa autem id sit iusto distinctio repellat iste dolorem enim perspiciatis, dignissimos, temporibus fugit! Reprehenderit, magnam excepturi? Lorem ipsum dolor sit amet consectetur adipisicing elit. <br><br> Distinctio, saepe nisi iste quas cumque cupiditate sunt pariatur, ipsa alias vel nam officia. Minus eius veniam quaerat eum nostrum repellendus expedita? Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero officia repellat quam distinctio qui, asperiores dolore aperiam quaerat eum, earum perspiciatis saepe excepturi? Repudiandae illum deleniti, nemo totam officiis dolore.</p>    
+        <section style="color: white; padding: 100px 0" id="rodD1">
+
+            <div class="Wrapper gal" >
+                <div class="galeria">
+                    <div class="nahlad"><a data-fslightbox="D1" href="https://dam-assets.au.reastatic.net/images/w_2000,h_1500/v1666226657/news-lifestyle-content-assets/wp-content/production/image-10_787815ed2d9/image-10_787815ed2d9.jpg?_i=AA"><img src="https://dam-assets.au.reastatic.net/images/w_2000,h_1500/v1666226657/news-lifestyle-content-assets/wp-content/production/image-10_787815ed2d9/image-10_787815ed2d9.jpg?_i=AA" alt="Nahlad"></a></div>
+                    <div class="nahlad"><a data-fslightbox="D1" href="https://cdn.apartmenttherapy.info/image/upload/v1556716350/stock/8ea241e96504a398f291a31939963e8ba948368c.jpg"><img src="https://cdn.apartmenttherapy.info/image/upload/v1556716350/stock/8ea241e96504a398f291a31939963e8ba948368c.jpg" alt="Nahlad"></a></div>
+                    <div class="nahlad"><a data-fslightbox="D1" href="../../../../Images/mainImg.jpg"><img src="../../../../Images/mainImg.jpg" alt="Nahlad"></a></div>
+                </div>
+                <div class="obsah">
+                    <h4>Rodinny dom Stara Lubovna</h4>
+                    <div>
+                        <p><strong>Autor:</strong> Fero</p>
+                        <p><strong>Studia a realizacia:</strong> 2 roky</p>
+                        <p><strong>Miesto:</strong>Solivar, Presov</p>
                     </div>
-                    <div class="col-lg-5 col-12 p-0 mt-lg-0 mt-5">
-                        <img src="https://images.edrawsoft.com/articles/house-plan-examples/example2.png" alt="Image" style="object-fit: cover; object-position: center; height: 100%; width: 100%;">
-                    </div>
-                </div>                
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium iusto in, voluptatem, ipsum ad minima quidem eum laboriosam hic quas nihil debitis suscipit obcaecati velit esse, amet ipsam atque ratione.
+                    Maiores natus quas placeat similique blanditiis cupiditate odit distinctio eum. At praesentium esse omnis voluptatibus unde modi accusantium beatae iste eum accusamus, quos, atque ut fugit, illo perferendis tenetur eius.
+                    Veniam, ab optio ipsa, delectus unde esse, odit voluptate quo est nam nostrum! Optio aliquam perspiciatis tenetur aliquid officia nesciunt dicta ullam natus, temporibus cum voluptatum repudiandae debitis dolore ea.
+                    Porro, tempora quidem quo dolores impedit et voluptatum! Doloremque magnam ullam reprehenderit consequuntur officiis? Adipisci tempore unde consequuntur corporis assumenda aliquam, similique necessitatibus maxime facere neque at perspiciatis veritatis libero!
+                    Nesciunt recusandae voluptatem, saepe soluta illo dolorem similique harum, voluptatibus asperiores distinctio ratione sequi! Consequatur in maxime autem. Consectetur, alias. Consectetur inventore veniam explicabo id voluptatem tempore rerum fugiat perferendis?
+                    Rerum harum sequi corrupti recusandae magnam sed reprehenderit sint expedita excepturi incidunt quasi eligendi id culpa asperiores eius, sit accusantium, numquam quisquam quos pariatur molestiae, molestias rem quis? At, sunt?</p>
+                </div>
             </div>
         </section>
+        <hr>
+        <section style="color: white; padding: 100px 0" id="rodD2">
 
+            <div class="Wrapper gal" >
+                <div class="galeria">
+                    <div class="nahlad"><img src="https://www.rocketmortgage.com/resources-cmsassets/RocketMortgage.com/Article_Images/Large_Images/Stock-Modern-House-With-Large-Pool-AdobeStock-127770833-Copy.jpg" alt="Nahlad"></div>
+                    <div class="nahlad"><img src="https://www.rocketmortgage.com/resources-cmsassets/RocketMortgage.com/Article_Images/Large_Images/Stock-Modern-House-With-Large-Pool-AdobeStock-127770833-Copy.jpg" alt="Nahlad"></div>
+                    <div class="nahlad"><img src="https://www.rocketmortgage.com/resources-cmsassets/RocketMortgage.com/Article_Images/Large_Images/Stock-Modern-House-With-Large-Pool-AdobeStock-127770833-Copy.jpg" alt="Nahlad"></div>
+                </div>
+                <div class="obsah">
+                    <h4>Rodinny dom Presov</h4>
+                    <div>
+                        <p><strong>Autor:</strong> Fero</p>
+                        <p><strong>Studia a realizacia:</strong> 2 roky</p>
+                        <p><strong>Miesto:</strong>Solivar, Presov</p>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium iusto in, voluptatem, ipsum ad minima quidem eum laboriosam hic quas nihil debitis suscipit obcaecati velit esse, amet ipsam atque ratione.
+                    Maiores natus quas placeat similique blanditiis cupiditate odit distinctio eum. At praesentium esse omnis voluptatibus unde modi accusantium beatae iste eum accusamus, quos, atque ut fugit, illo perferendis tenetur eius.
+                    Veniam, ab optio ipsa, delectus unde esse, odit voluptate quo est nam nostrum! Optio aliquam perspiciatis tenetur aliquid officia nesciunt dicta ullam natus, temporibus cum voluptatum repudiandae debitis dolore ea.
+                    Porro, tempora quidem quo dolores impedit et voluptatum! Doloremque magnam ullam reprehenderit consequuntur officiis? Adipisci tempore unde consequuntur corporis assumenda aliquam, similique necessitatibus maxime facere neque at perspiciatis veritatis libero!
+                    Nesciunt recusandae voluptatem, saepe soluta illo dolorem similique harum, voluptatibus asperiores distinctio ratione sequi! Consequatur in maxime autem. Consectetur, alias. Consectetur inventore veniam explicabo id voluptatem tempore rerum fugiat perferendis?
+                    Rerum harum sequi corrupti recusandae magnam sed reprehenderit sint expedita excepturi incidunt quasi eligendi id culpa asperiores eius, sit accusantium, numquam quisquam quos pariatur molestiae, molestias rem quis? At, sunt?</p>
+                </div>
+            </div>
+        </section>
+        <hr>
+        <section style="color: white; padding: 100px 0" id="rodD3">
 
-        <section style="padding: 100px 0;">
-            <h3 style="text-align: center; margin-bottom: 100px;">Kolektív</h3>
-            <div class="Wrapper">
-                <div class="row">
-                    <div class="col-md-6 col-12 kolektiv">
-                        <div class="kolImg">
-                            <img src="https://media.istockphoto.com/id/1309328823/photo/headshot-portrait-of-smiling-male-employee-in-office.jpg?b=1&s=612x612&w=0&k=20&c=eU56mZTN4ZXYDJ2SR2DFcQahxEnIl3CiqpP3SOQVbbI=" alt="Foto">
-                        </div>
-                        <h4>Ing. Peter Jurica</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate odit saepe fuga repudiandae error similique at, aspernatur quis vitae fugit delectus magnam deserunt fugiat recusandae non neque, corporis quae repellat? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni laboriosam animi eveniet cupiditate voluptate sequi consequuntur hic neque aliquid, incidunt, facilis perspiciatis iusto vel labore adipisci repudiandae explicabo placeat quam!</p>
+            <div class="Wrapper gal" >
+                <div class="galeria">
+                    <div class="nahlad"><img src="https://amazingarchitecture.com/storage/2184/brutalist_house_lyx_arkitekter_iceland.jpg" alt="Nahlad"></div>
+                    <div class="nahlad"><img src="https://amazingarchitecture.com/storage/2184/brutalist_house_lyx_arkitekter_iceland.jpg" alt="Nahlad"></div>
+                    <div class="nahlad"><img src="https://amazingarchitecture.com/storage/2184/brutalist_house_lyx_arkitekter_iceland.jpg" alt="Nahlad"></div>
+                </div>
+                <div class="obsah">
+                    <h4>Rodinny dom Orkucany</h4>
+                    <div>
+                        <p><strong>Autor:</strong> Fero</p>
+                        <p><strong>Studia a realizacia:</strong> 2 roky</p>
+                        <p><strong>Miesto:</strong>Solivar, Presov</p>
                     </div>
-                    <div class="col-md-6 col-12 kolektiv">
-                        <div class="kolImg">
-                            <img src="https://media.istockphoto.com/id/1309328823/photo/headshot-portrait-of-smiling-male-employee-in-office.jpg?b=1&s=612x612&w=0&k=20&c=eU56mZTN4ZXYDJ2SR2DFcQahxEnIl3CiqpP3SOQVbbI=" alt="Foto">
-                        </div>
-                        <h4>Ing. Darina Juricova</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate odit saepe fuga repudiandae error similique at, aspernatur quis vitae fugit delectus magnam deserunt fugiat recusandae non neque, corporis quae repellat? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni laboriosam animi eveniet cupiditate voluptate sequi consequuntur hic neque aliquid, incidunt, facilis perspiciatis iusto vel labore adipisci repudiandae explicabo placeat quam!</p>
-                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium iusto in, voluptatem, ipsum ad minima quidem eum laboriosam hic quas nihil debitis suscipit obcaecati velit esse, amet ipsam atque ratione.
+                    Maiores natus quas placeat similique blanditiis cupiditate odit distinctio eum. At praesentium esse omnis voluptatibus unde modi accusantium beatae iste eum accusamus, quos, atque ut fugit, illo perferendis tenetur eius.
+                    Veniam, ab optio ipsa, delectus unde esse, odit voluptate quo est nam nostrum! Optio aliquam perspiciatis tenetur aliquid officia nesciunt dicta ullam natus, temporibus cum voluptatum repudiandae debitis dolore ea.
+                    Porro, tempora quidem quo dolores impedit et voluptatum! Doloremque magnam ullam reprehenderit consequuntur officiis? Adipisci tempore unde consequuntur corporis assumenda aliquam, similique necessitatibus maxime facere neque at perspiciatis veritatis libero!
+                    Nesciunt recusandae voluptatem, saepe soluta illo dolorem similique harum, voluptatibus asperiores distinctio ratione sequi! Consequatur in maxime autem. Consectetur, alias. Consectetur inventore veniam explicabo id voluptatem tempore rerum fugiat perferendis?
+                    Rerum harum sequi corrupti recusandae magnam sed reprehenderit sint expedita excepturi incidunt quasi eligendi id culpa asperiores eius, sit accusantium, numquam quisquam quos pariatur molestiae, molestias rem quis? At, sunt?</p>
                 </div>
             </div>
         </section>
 
-        <section style="padding: 100px 0; background-color: whitesmoke;">
-            
-            <div class="Wrapper" style="flex-direction: column; align-items: center;">
-                <h3 style="width: 100%;margin-bottom: 50px; text-align: start;">Certifikaty</h3>
-                <div class="row">
-                    <div class="col-lg-3 col-6">
-                        <img src="https://www.efektivnestavby.sk/files/upload/certifikat-kema-2015.jpg" alt="Certifikaty" style="object-fit: cover; object-position: center; height: 100%; width: 100%;">
-                    </div>
-                    <div class="col-lg-3 col-6">
-                        <img src="https://www.efektivnestavby.sk/files/upload/certifikat-kema-2015.jpg" alt="Certifikaty" style="object-fit: cover; object-position: center; height: 100%; width: 100%;">
-                    </div>
-                    <div class="col-lg-3 col-6">
-                        <img src="https://www.efektivnestavby.sk/files/upload/certifikat-kema-2015.jpg" alt="Certifikaty" style="object-fit: cover; object-position: center; height: 100%; width: 100%;">
-                    </div>
-                    <div class="col-lg-3 col-6">
-                        <img src="https://www.efektivnestavby.sk/files/upload/certifikat-kema-2015.jpg" alt="Certifikaty" style="object-fit: cover; object-position: center; height: 100%; width: 100%;">
-                    </div>
-                </div>
-            </div>
-        </section>
+
+
+        <hr>
+
+
+
 
 
 
@@ -191,7 +218,7 @@
                 <div class="row justify-content-between row-gap-5" style="width: 100%;">
                     <div class="col-lg-6 col-12 order-lg-0 order-1">
                         <div class="footermenu">
-                            <a href=""><h5 style="font-size: 1.5rem;">O nas</h5></a>
+                            <a href="../o_nas.html"><h5 style="font-size: 1.5rem;">O nas</h5></a>
                             <div class="accordion accordion-flush" id="accordionFlushExample">
                               <div class="accordion-item">
                                 <h2 class="accordion-header">
@@ -258,7 +285,7 @@
 
                     <div class="col-lg-5 col-12 order-lg-1 order-0">
                         <div class="footeraddress">
-                            <img src="../../../Images/logo-vektor.png" alt="Logo">
+                            <img src="../../../../Images/logo-vektor.png" alt="Logo">
                             <p>Janka Borodaca 4, Sabinov 083 01, Slovensko</p>
                             <p>+421 907 373 283, darina.juricova@gmail.com</p>
                             <p>+421 915 902 124, peter.jurica1@gmail.com</p>
@@ -281,6 +308,7 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
     <script src="../JAVAscript/button.js"></script>
+    <script src="../../../JAVAscript/fslightbox.js"></script>
 </body>
 </html>
 
